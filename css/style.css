@@ -196,26 +196,13 @@ margin-left: 20px;
   color: white;
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
-.button-project-pinkgoose {
-  height: 300px;
-  width: 350px;
-  background-color: #002fa7;
-  color: white;
-  border-radius: 10px;
+.image-buttons {
   display: flex;
-  margin-top: 150px;
-  margin-left: 125px;
-}
-
-.buttons-projects-roc{
-  height: 300px;
-  width: 350px;
-  background-color: #002fa7;
-  color: white;
-  border-radius: 10px;
-  display: flex;
-  margin-top: 150px;
-  margin-left: 125px;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
 }
