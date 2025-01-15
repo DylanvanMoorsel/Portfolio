@@ -196,7 +196,7 @@ margin-left: 20px;
   color: white;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 
 .image-buttons {
@@ -205,4 +205,22 @@ margin-left: 20px;
   justify-content: space-around;
   align-items: center;
   margin-top: 100px;
+}
+
+.contact-button {
+  height: 100px;
+  width: 250px;
+  background-color: #002fa7;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.contact-blue {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
