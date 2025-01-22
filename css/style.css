@@ -532,4 +532,20 @@ input[type=submit]:hover {
   background-color: #ccc;
 }
 
+.hub-button {
+  height: 100px;
+  width: 250px;
+  background-color: #002fa7;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
 
+.hub-blue {
+  display: flex;
+  margin-left: 400px;
+  align-items: center;
+}
