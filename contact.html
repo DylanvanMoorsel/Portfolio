@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
@@ -9,25 +11,52 @@
 <body>
 
     <header>
-        <img class="moorsellogo" src="img/Moorsel.png" alt="moorsellogo">
+        <img class="moorsellogo" src="img/Moorsel.png" alt="Moorsel Logo">
 
         <nav>
-
+            
         </nav>
     </header>
 
     <main>
-        <a href="https://www.instagram.com/koudheidwarmte?igsh=MWRlemJxOGZmZ2kzZg%3D%3D&utm_source=qr"><img
-                class="instagram-blue" src="img/instagram-blue.png" alt="instagram-blue"></a>
+       
+        <a href="https://www.instagram.com/koudheidwarmte?igsh=MWRlemJxOGZmZ2kzZg%3D%3D&utm_source=qr">
+            <img class="instagram-blue" src="img/instagram-blue.png" alt="Instagram Blue Logo">
+        </a>
         <div class="instagram-logo"></div>
 
-        <a href="https://www.linkedin.com/in/dylan-van-moorsel-52b193348/"><img class="linkedin"
-                src="img/linkedin-logo.webp" alt="linkedin-logo"></a>
+        <a href="https://www.linkedin.com/in/dylan-van-moorsel-52b193348/">
+            <img class="linkedin" src="img/linkedin-logo.webp" alt="LinkedIn Logo">
+        </a>
         <div class="linkedin-logo"></div>
-    </main>
-    <footer>
 
+        <div class="container">
+            <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Netherlands</option>
+                    <option value="canada">Belgium</option>
+                    <option value="usa">Other</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Voeg footer-inhoud toe indien nodig -->
     </footer>
+
 </body>
 
 </html>
