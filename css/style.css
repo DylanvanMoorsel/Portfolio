@@ -164,7 +164,7 @@ html {
   flex-direction: column;
 }
 
-.space-between {
+.text-explore {
   display: flex;
   flex-direction: row;
 }
