@@ -23,14 +23,14 @@ main {
   color: white;
 }
 
-html{
+html {
   background: black;
   height: 100%;
   position: relative;
   overflow: hidden;
 }
 
-.container{
+.container {
   height: 300px;
   width: 300px;
   position: absolute;
@@ -40,7 +40,7 @@ html{
 
 }
 
-.square{
+.square {
   height: 94%;
   width: 94%;
   background: royalblue;
@@ -50,14 +50,19 @@ html{
   margin: -47% 0 0 -47%;
 }
 
-.black{ 
-  background: black;  
-  animation: rotate 400s infinite linear; 
+.black {
+  background: black;
+  animation: rotate 400s infinite linear;
 }
 
-@keyframes rotate{
-  0%{ transform: rotate(0deg); }
-	100%{ transform: rotate(360deg); }	
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .color-background {
@@ -279,6 +284,7 @@ html{
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  margin-bottom: 400px;
 }
 
 .go-back {
@@ -419,6 +425,15 @@ html{
   display: flex;
   justify-content: center;
   margin-top: 40px;
+}
+
+.contact-text h5 {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-right: 500px;
+  margin-top: 10px;
 }
 
 /* einde Mastermind page */
