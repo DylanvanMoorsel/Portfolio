@@ -457,46 +457,27 @@ h3 {
   align-items: center;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  background-color: black;
-  color: white;
-}
 
-header {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 10;
-}
-
-header img.moorsellogo {
-  max-width: 150px;
-}
-
-.container {
-  width: 100%;
+.form-box {
   max-width: 600px;
-  padding: 30px;
+  padding: 20px;
+  position: absolute; 
+  top: 50px; 
+  right: 50px; 
+  text-align: left; 
   color: white;
   background: transparent;
-  box-shadow: none;
-  margin-top: -350px;
-  margin-left: 50px;
 }
 
-.container form {
+
+.form-wrapper form {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: flex-start;
 }
 
-.container label {
+.form-wrapper label {
   font-weight: bold;
   margin-bottom: 5px;
 }
