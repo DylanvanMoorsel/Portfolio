@@ -524,9 +524,6 @@ input[type=submit]:hover {
   justify-content: center;
   align-items: center;
   font-size: 30px;
-}
-
-.hub-blue {
   display: flex;
   margin-left: 400px;
   align-items: center;
